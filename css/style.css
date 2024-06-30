@@ -1,0 +1,205 @@
+/* geologica-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Geologica-regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/geoloca/geologica-v1-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* geologica-600 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Geologica-medium';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/geoloca/geologica-v1-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* geologica-800 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Geologica-bold';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/geoloca/geologica-v1-cyrillic_latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.font {
+    font-family: "Geologica-bold", sans-serif;
+}
+
+.font2 {
+    font-family: "Geologica-regular", sans-serif;
+}
+
+.font3 {
+    font-family: "Geologica-medium", sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFE2B0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a {
+    display: inline-block; /* Строчно-блочный элемент */
+    transition: 0.3s; /* Время перехода */
+   }
+a:hover {
+    transform: scale(1.2);
+   }
+
+li:last-child {
+    margin-right: 0;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+.section-about {
+    height: 640px;
+    background: url(../img/01-Back_Image.jpg) center/cover no-repeat;
+    box-shadow: inset 0 0 50px 50px #ffe2b0;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section-about__block {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234,156, 65, 0.8)100%);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 8px 11px 19px 0 rgba(0, 0, 0, 0.35);
+    top: 57%;
+    left: 50%;
+    text-align: center;
+    padding-top: 15px;
+    transition: 0.3s; /* Время перехода */
+}
+
+.section-about__block:hover {
+    transform: scale(1.2);
+}
+
+.section-about__border {
+    width: 390px;
+    height: 160px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 17px 0 0 28px;
+    text-align: left;
+
+}
+
+.section-about__title {
+    font-size: 36px;
+    margin: 0 0 9px;
+}
+
+.section-about__text {
+    font-size: 12px;
+    margin: 0;
+}
+
+.section-description {
+    margin-bottom: 20px;
+}
+
+.section-description__icon-box{
+    text-align: center;
+}
+
+.section-description__icon-box img {
+    margin-right: 76px;
+    margin-bottom: 20px;
+}
+
+.section-description__icon-box img:last-child {
+    margin-right: 0;
+}
+
+.section-description__title {
+    font-size: 96px;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.section-about__title {
+    margin-bottom: 20px;
+    padding-right: 26px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.red {
+    color: #f15b40;
+}
+
+.section-description__text {
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    box-shadow: 8px 11px 19px 0 rgba(0, 0, 0, 0.35);
+}
+
+/*.line {*/
+/*    border-top: 1px solid rgb(0, 0, 0);*/
+/*    width: 1024px;*/
+/*    margin: 0 auto 20px;*/
+/*}*/
+
+hr {
+    border: none;
+    border-top: 1px solid #ffa55e;
+    width: 1024px;
+    margin: 0 auto 20px;
+}
+
+.section_map {
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 80px;
+}
+
+.center {
+    text-align: center;
+    position: relative;
+    user-select: none;
+}
